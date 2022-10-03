@@ -4,7 +4,7 @@
 header('Content-Type: text/html; charset=utf-8');
   
 // Kết nối database
-$conn = mysqli_connect('localhost', 'root', 'vertrigo', 'demo') or die ('Không thể kết nối đến CSDL');
+$conn = mysqli_connect('localhost', 'root', '', 'data') or die ('Không thể kết nối đến CSDL');
 mysqli_set_charset($conn, 'utf8');
   
 // Lấy trang hiện tại
